@@ -31,6 +31,7 @@ class Notepad extends JFrame implements ActionListener{
 	{
 		f=new JFrame();
 		ta=new JTextArea();
+		ta.setFont(new Font("Arial",Font.PLAIN,16));
 		mb=new JMenuBar();
 		
 		file=new JMenu("File");
